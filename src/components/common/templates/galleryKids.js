@@ -1,12 +1,12 @@
-import img1 from "../../assets/img/kids/img1.jpeg";
-import img2 from "../../assets/img/kids/img2.jpeg";
-import img3 from "../../assets/img/kids/img3.jpeg";
-import img4 from "../../assets/img/kids/img4.jpeg";
-import img5 from "../../assets/img/kids/img5.jpeg";
-import img6 from "../../assets/img/kids/img6.jpeg";
-import img7 from "../../assets/img/kids/img7.jpeg";
-import img8 from "../../assets/img/kids/img8.jpeg";
-import img9 from "../../assets/img/kids/img11.jpeg";
+import img1 from "../../assets/img/kids/img1.png";
+import img2 from "../../assets/img/kids/img2.png";
+import img3 from "../../assets/img/kids/img3.png";
+import img4 from "../../assets/img/kids/img4.png";
+import img5 from "../../assets/img/kids/img5.png";
+import img6 from "../../assets/img/kids/img6.png";
+import img7 from "../../assets/img/kids/img7.png";
+import img8 from "../../assets/img/kids/img8.png";
+import img9 from "../../assets/img/kids/img11.png";
 
 const pictures = [
   {
