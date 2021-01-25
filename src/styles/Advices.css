@@ -1,0 +1,41 @@
+.container {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+.text {
+  margin-left: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 100%;
+}
+section {
+  float: left;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.third {
+  width: 100%;
+}
+span::first-letter {
+  font-size: 200%;
+  color: #ffc1b6;
+  font-weight: 700;
+}
+h1 {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.icon {
+  color: #cd5d7d;
+}
+h1,
+.icon,
+span::first-letter {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
+    3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04),
+    0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04),
+    7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04),
+    9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04),
+    11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04),
+    13px 13px rgba(0, 0, 0, 0.04);
+}
