@@ -73,3 +73,63 @@ i:hover {
     font-size: 2.5rem;
   }
 }
+
+/* 2532x1170 pixels at 460ppi */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 2.4rem;
+  }
+  .head {
+    font-size: 7rem;
+  }
+  .intro {
+    width: 100%;
+    padding-top: 7.5rem;
+    height: 52rem;
+  }
+  .social {
+    padding-top: 7rem;
+  }
+  img.picture {
+    height: 45rem !important;
+    width: 100%;
+    margin-top: 0.2rem;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  p.content {
+    font-size: 2.5rem;
+  }
+}
+
+/* 2778x1284 pixels at 458ppi */
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 2.4rem;
+  }
+  .head {
+    font-size: 7rem;
+  }
+  .intro {
+    width: 100%;
+    padding-top: 7.5rem;
+    height: 52rem;
+  }
+  .social {
+    padding-top: 7rem;
+  }
+  img.picture {
+    height: 45rem !important;
+    width: 100%;
+    margin-top: 0.2rem;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  p.content {
+    font-size: 2.5rem;
+  }
+}
