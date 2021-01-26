@@ -45,16 +45,20 @@ i:hover {
   padding: 5px;
 }
 
-@media only screen and (max-width: 767px) {
-  .container {
-    width: 90%;
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .main {
+    width: 100%;
+    height: auto;
   }
   .intro {
     width: 100%;
+    margin-top: 6rem;
     height: auto;
   }
   .picture {
-    width: 100%;
     height: auto;
+    margin-top: 6rem;
+    position: relative;
   }
+  
 }

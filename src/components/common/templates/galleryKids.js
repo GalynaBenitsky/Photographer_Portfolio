@@ -32,8 +32,7 @@ const pictures = [
     imgURL: img5,
   },
   {
-    id: 2,
-
+    id: 6,
     imgURL: img6,
   },
   {

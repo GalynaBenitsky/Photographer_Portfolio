@@ -5,12 +5,12 @@ const socialMedia = [
     url: "mailto:koltunovskya.ti@gmail.com",
   },
   {
-    id: 1,
+    id: 2,
     icon: "fab fa-instagram",
     url: "https://www.instagram.com/koltunovska_/",
   },
   {
-    id: 1,
+    id: 3,
     icon: "fab fa-facebook-square",
     url: "https://www.facebook.com/toma.foto.3",
   },
