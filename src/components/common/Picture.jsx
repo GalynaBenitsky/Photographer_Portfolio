@@ -4,7 +4,7 @@ import "../../styles/Piture.css";
 const Pictures = (props) => {
   return (
     <div>
-      <img src={props.src} alt="gallery images"></img>
+      <img id="images" src={props.src} alt="gallery images"></img>
     </div>
   );
 };
