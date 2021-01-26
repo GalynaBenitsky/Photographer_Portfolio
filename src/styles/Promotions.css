@@ -1,3 +1,15 @@
 h1.promo {
   color: white;
 }
+
+p.promo {
+  color: white;
+  opacity: 0.3;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 17rem;
+}

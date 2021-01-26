@@ -52,20 +52,27 @@ a:focus {
   font-size: 2rem;
 }
 
-@media screen and (min-width: 730px) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .navbar {
     padding: 10px 0;
     padding: 1rem 0;
+    height: 15rem;
   }
   .navbar ul li a {
     padding-left: 1em;
     padding-right: 1em;
     display: inline-block;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 5%;
   }
   #logo {
-    padding-top: 20px;
-    padding-top: 2rem;
-    padding-bottom: 20px;
+    padding-top: 5rem;
     padding-bottom: 2rem;
+    font-size: 3.5rem;
+  }
+  .header {
+    height: 25rem;
+    margin-bottom: 1rem;
   }
 }

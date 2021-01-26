@@ -7,9 +7,10 @@
   font-family: "Roboto Slab", serif;
 }
 
-.picture {
+img.picture {
   border: 1px solid #ddd;
   height: auto;
+  width: 100%;
   position: relative;
   margin-bottom: 2rem;
 }
@@ -17,7 +18,6 @@
   top: 100px;
   right: 15px;
   left: 5px;
-  background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5);
   width: 100%; /* Full width */
   padding: 1rem;
@@ -49,16 +49,27 @@ i:hover {
   .main {
     width: 100%;
     height: auto;
+    margin-top: 2.4rem;
+  }
+  .head {
+    font-size: 7rem;
   }
   .intro {
     width: 100%;
-    margin-top: 6rem;
-    height: auto;
+    padding-top: 7.5rem;
+    height: 52rem;
   }
-  .picture {
-    height: auto;
-    margin-top: 6rem;
+  .social {
+    padding-top: 7rem;
+  }
+  img.picture {
+    height: 45rem !important;
+    width: 100%;
+    margin-top: 0.2rem;
     position: relative;
+    margin-bottom: 1rem;
   }
-  
+  p.content {
+    font-size: 2.5rem;
+  }
 }
