@@ -1,6 +1,6 @@
  # Photographer Portfolio
 Project created with React.js, HTML5, CSS, Bootstrap etc. 
-## www.koltunovskaphoto.com
+
 
 <img width="381" alt="Screen Shot 2021-01-26 at 8 39 52 PM" src="https://user-images.githubusercontent.com/43690415/105929949-afce1e00-6016-11eb-8697-e1b82234a838.png">
 
