@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import portraits from "./templates/portraits";
 import Picture from "./Picture";
 
 export const PortraitPics = () => {
-  const [imgsLoaded, setImgsLoaded] = useState(false);
-
   useEffect(() => {
     const loadImage = (image) => {
       return new Promise((resolve, reject) => {
@@ -20,15 +18,15 @@ export const PortraitPics = () => {
       });
     };
 
-    Promise.all(portraits.map((image) => loadImage(image)))
-      .then(() => setImgsLoaded(true))
-      .catch((err) => console.log("Помилка завантаження фото.", err));
+    Promise.all(portraits.map((image) => loadImage(image))).catch((err) =>
+      console.log("Помилка завантаження фото.", err)
+    );
   }, []);
 
   return (
     <div>
       <h1>Портрети</h1>
-      <div className="card-columns mt-3">
+      <div className="card-columns">
         {portraits.map((createPicture) => (
           <Picture key={createPicture.id} src={createPicture.imgURL} />
         ))}

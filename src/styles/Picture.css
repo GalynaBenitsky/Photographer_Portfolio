@@ -1,47 +1,38 @@
-h1.promo {
-  color: white;
+#images {
+  width: 100% !important;
+  height: auto !important;
+  padding: 5px;
+  width: 150px;
 }
-
-p.promo {
+div.card-columns {
+  column-count: 3;
+  column-gap: 0.3rem;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  float: left;
+}
+.portfolio {
   color: white;
-  opacity: 0.3;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Open Sans Condensed", sans-serif;
-  margin-bottom: 17rem;
+  font-family: "Roboto Slab", serif;
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  h1.promo {
+  .portfolio {
     margin-top: 6rem;
-  }
-  p.promo {
-    margin-top: 27rem;
-    margin-bottom: 47rem;
   }
 }
 
 /* 2532x1170 pixels at 460ppi */
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  h1.promo {
+  .portfolio {
     margin-top: 6rem;
-  }
-  p.promo {
-    margin-top: 27rem;
-    margin-bottom: 47rem;
   }
 }
 
 /* 2778x1284 pixels at 458ppi */
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-  h1.promo {
+  .portfolio {
     margin-top: 6rem;
-  }
-  p.promo {
-    margin-top: 27rem;
-    margin-bottom: 47rem;
   }
 }

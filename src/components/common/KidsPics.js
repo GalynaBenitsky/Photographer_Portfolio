@@ -26,7 +26,7 @@ export const KidsPics = () => {
   return (
     <div>
       <h1>Діти</h1>
-      <div className="card-columns mt-2">
+      <div className="card-columns">
         {pictures.map((createPicture) => (
           <Picture key={createPicture.id} src={createPicture.imgURL} />
         ))}
