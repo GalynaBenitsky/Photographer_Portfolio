@@ -1,9 +1,8 @@
 import React from "react";
-import mainPhoto from "./assets/img/main.jpg";
+import mainPhoto from "./assets/img/main.jpeg";
 import "../styles/Main.css";
 import Social from "./common/Social";
 import socialMedia from "./common/templates/socialMedia";
-
 
 const Main = () => {
   return (
